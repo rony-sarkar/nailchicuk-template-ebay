@@ -1,0 +1,237 @@
+/***** medium Layout *****/
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .support-box ul li:last-child {
+        width: 16%;
+    }
+
+    .footer-top h2::before {
+        width: 795px;
+    }
+
+    .frame {
+        width: 452px;
+        height: 570px;
+    }
+
+    .frame img.large {
+        height: 450px;
+    }
+
+    .frame div {
+        margin-top: 457px;
+    }
+
+    .newsletter img {
+        height: 100%;
+    }
+
+    .news-info {
+        padding: 39px 0;
+    }
+
+    .eis img {
+        height: 101px;
+    }
+}
+
+/***** Tablet Layout *****/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .support-box ul li {
+        width: 20% !important;
+    }
+
+    .footer-top h2::before {
+        width: 577px;
+    }
+
+    .news-info {
+        padding: 31px 0;
+    }
+
+    .service-right {
+        padding: 0 10px;
+        font-size: 14px;
+    }
+
+    .sbt {
+        margin-top: 8px;
+    }
+
+    .eis img {
+        height: 69px;
+    }
+
+    .product-dec {
+        margin-top: 30px;
+    }
+
+    a .sin-shop-cat h3 {
+        font-size: 9px;
+    }
+
+    .footer-top .container::after {
+        bottom: -13px;
+        width: 96%;
+    }
+
+    .main-footer-menu {
+        padding: 8px 0;
+    }
+}
+
+/***** Mobile Layout *****/
+
+@media only screen and (max-width: 767px) {
+    .support-box {
+        padding: 10px 0 0;
+    }
+
+    .footer-top h2::before {
+        width: 147px;
+    }
+
+    .support {
+        text-align: center !important;
+    }
+
+    .support-box ul li:last-child {
+        width: auto;
+        float: left;
+    }
+
+    .support-box ul li {
+        width: 50%;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    .service-right {
+        padding: 0 10px;
+        font-size: 14px;
+    }
+
+    .logo-area img {
+        width: 200px;
+    }
+
+    .logo-area::before {
+        top: 80px;
+    }
+
+    .frame {
+        width: 288px;
+        height: 352px;
+        float: none;
+    }
+
+    .frame div {
+        margin-top: 290px;
+        padding-left: 20px;
+    }
+
+    .frame img.large {
+        height: 286px;
+    }
+
+    .frame label.thumb img {
+        height: 62px;
+        width: 62px;
+    }
+
+    .frame label.right {
+        height: 70px;
+        width: 15px;
+        padding-left: 5px;
+    }
+
+    .frame label.left {
+        height: 70px;
+        width: 15px;
+        padding-right: 5px;
+    }
+
+    .frame label.left img,
+    .frame label.right img {
+        margin-top: 25px;
+    }
+
+    .frame input#push1:checked ~ div,
+    .frame input#push2:checked ~ div,
+    .frame input#push5:checked ~ div,
+    .frame input#push10:checked ~ div {
+        margin-left: -248px;
+    }
+
+    .frame input#push4:checked ~ div,
+    .frame input#push7:checked ~ div,
+    .frame input#push8:checked ~ div,
+    .frame input#push11:checked ~ div {
+        margin-left: -496px;
+    }
+
+    .frame input#push6:checked ~ div,
+    .frame input#push9:checked ~ div {
+        margin-left: -744px;
+    }
+
+    .mp {
+        padding: 0;
+    }
+
+    .product-dec {
+        margin-top: 30px;
+    }
+
+    .more {
+        font-size: 20px;
+    }
+
+    .eis img {
+        height: auto;
+    }
+
+    .newsletter .col-md-2.col-sm-4 {
+        padding: 0;
+    }
+
+    .news-info {
+        padding: 30px 0;
+    }
+
+    .single-offer {
+        margin-bottom: 10px;
+    }
+
+    .csslider ul li img {
+        width: 100%;
+        height: auto;
+    }
+
+    .tab-area label {
+        width: 100%;
+    }
+
+    .footer-top .container::after {
+        bottom: -14px;
+        left: 0;
+        width: 100%;
+    }
+
+    .main-footer-menu {
+        text-align: center;
+    }
+
+    .main-footer-menu ul {
+        display: inline-block;
+    }
+
+    .main-footer-menu {
+        padding: 0;
+    }
+}
+
+/***** Wide Mobile Layout *****/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
